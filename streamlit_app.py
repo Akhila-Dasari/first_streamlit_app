@@ -80,7 +80,7 @@ if streamlit.button('Get Fruit Load List'):
 #my_data_rows = my_cur.fetchall()
 
 
-#streamlit.stop()
+streamlit.stop()
 fruit_load_list = streamlit.text_input('What fruit would you like to add?','mango')
 streamlit.write('Thanks for adding', fruit_load_list)
 
